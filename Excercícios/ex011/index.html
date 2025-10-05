@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas </h1>
+    <P>Tente acessar esse site em varios dispositivos diferentes, ou simplesmente alterar o tamanho no navegador.</P>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto.p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto.m.png" type="image/png">
+        <img src="imagens/foto.g.png" alt="imagem flexivel">
+       
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reroduzir audios em HTML5</p>
+    <audio src="midia/back in the saddle - san _lebo_ lebowitz, tone seeker.mp3"controls autolay></audio>
+    <audio preload="metadata" controls loop >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wave">
+        <p>infelizmente seu navegador nao conegye reproduzir o áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o áudio MP3</a></p>
+    </audio>
+    
+</body>
+</html>

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Android ;
+    src: url('fonts/IDroid.otf') format('opentype');
+    
+}
+
+
+ ul {
+ margin: 0;
+ columns: 2;
+ 
+}
+li::before{
+    content: '✓';
+}
+
+body{
+    margin: 0;
+    background-color: rgb(132, 225, 173);
+    
+    
+}
+
+header{   
+    padding: 10px; 
+    width: 100%;
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(to top,  rgba(19, 19, 19, 0.733), rgb(3, 175, 78));
+    
+}
+
+header > p {
+text-align: center;
+padding: 10px;
+}
+
+
+
+main > p{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    
+}
+
+main > h2{ 
+    padding: 0 0 0 10px;
+    font-family: 'Android';
+    background-image: linear-gradient(
+        to right, rgba(13, 128, 63, 0.719), rgba(43, 207, 103, 0.24)
+    );
+    color: rgba(22, 146, 76, 0.863);
+}
+
+#quadro{
+    margin: 20px 20px 20px 40px;
+    border-radius: 20px;
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(132, 225, 172, 0.541)
+    
+    
+}
+
+img#irina{
+    display: block;
+     height: 30%;
+     width: 300px;
+    
+}
+
+img#irina2{
+
+    width: 99%;
+   
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+nav>a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Arial', Courier, monospace;
+    height: auto;
+    width: auto;
+
+}
+
+
+
+h3{
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    border-radius: 6px 6px 0 0;
+    color: white;
+    background-color: rgba(13, 128, 63, 0.863);
+}
+
+
+main{
+    padding: 1px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(15, 66, 36);
+}
+
+a{
+    color: rgba(13, 128, 63, 0.863);
+}
+
+nav > a:hover{
+    border-radius: 10px;
+    transition-duration: 0,5s;
+    background-color: rgba(13, 128, 63, 0.863);
+    
+}
+abbr{
+    text-decoration: none;
+}
+
+
+
+

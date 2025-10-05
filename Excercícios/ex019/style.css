@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+h1#principal{ color: hotpink;
+
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.basico{
+    color: rgb(29, 173, 0);
+}
+.intermediario{
+    color: rgb(235, 206, 42);
+}
+.avançado{
+    color:red;
+}
